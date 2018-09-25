@@ -18,10 +18,6 @@ CGFloat prog;
 
 RCT_EXPORT_MODULE()
 
-- (NSArray<NSString *> *)supportedEvents
-{
-    return @[@"RNDownloaderProgress", @"DoneButtonEvent", @"CancelEvent", @"OKEvent"];
-}
 
 - (dispatch_queue_t)methodQueue
 {
